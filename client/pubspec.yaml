@@ -1,0 +1,54 @@
+name: ichat
+description: 跨平台实时聊天应用
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  
+  # 状态管理
+  provider: ^6.1.1
+  
+  # 网络
+  http: ^1.1.2
+  socket_io_client: ^2.0.3+1
+  
+  # 本地存储
+  shared_preferences: ^2.2.2
+  
+  # 工具
+  intl: ^0.18.1
+  uuid: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+
+flutter_launcher_icons:
+  image_path: "assets/icon/app_icon.png"
+  android: 
+    generate: true
+    adaptive_icon_background: "#FFFFFF"
+    adaptive_icon_foreground: "assets/icon/app_icon.png"
+  ios:
+    generate: true
+  macos:
+    generate: true
+  windows:
+    generate: true

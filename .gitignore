@@ -1,0 +1,24 @@
+# Server
+server/node_modules/
+server/.env
+server/*.log
+
+# Client
+client/.dart_tool/
+client/.flutter-plugins
+client/.flutter-plugins-dependencies
+client/.packages
+client/build/
+client/ios/Flutter/.last_build_id
+client/macos/Flutter/ephemeral/
+client/windows/flutter/ephemeral/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
