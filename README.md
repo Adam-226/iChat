@@ -1,4 +1,4 @@
-# iChat - 跨平台实时聊天应用
+# iChat - 跨平台实时聊天应用（⚠️目前还没完善）
 
 一个功能完整的实时聊天应用，支持 Windows、macOS、iOS 和 Android 平台。
 
@@ -237,23 +237,3 @@ flutter build windows --release
    - 添加输入验证
    - 启用 CORS 白名单
    - 定期备份数据库
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-## 📄 许可证
-
-MIT License
-
-## 👨‍💻 作者
-
-iChat Team
-
-## 📞 支持
-
-如有问题，请提交 Issue 或联系我们。
-
----
-
-**享受聊天吧！ 💬**
